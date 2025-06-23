@@ -5,6 +5,8 @@ import { MoveLeftIcon } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+
+
 export default async function SetDetail({ params }: { params: { id: string } }) {
   const res = await fetch(`https://api.pokemontcg.io/v2/cards?q=set.id:${params.id}`, {
     headers: {
@@ -19,11 +21,7 @@ export default async function SetDetail({ params }: { params: { id: string } }) 
 
 return (
     <div
-        className="p-16 flex flex-col gap-8"
-        style={{
-            backgroundImage: "url('https://www.chromethemer.com/wallpapers/chromebook-wallpapers/images/960/pokemon-chromebook-wallpaper.jpg')",
-            backgroundPosition: "center",
-        }}
+        className="p-16 flex flex-col gap-8 bg-gray-600"
     >
         <div className="flex flex-rows items-center justify-between mr-16">
         <Link href="/sets">

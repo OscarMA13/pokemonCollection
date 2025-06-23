@@ -53,7 +53,7 @@ export default function SetBrowser() {
   return (
     <div className="p-8 flex  flex-col gap-8"
     style={{
-        backgroundImage: "url('https://www.chromethemer.com/wallpapers/chromebook-wallpapers/images/960/pokemon-chromebook-wallpaper.jpg')",
+        backgroundImage: "url('https://static.vecteezy.com/system/resources/previews/024/625/582/non_2x/cute-yellow-mouse-character-background-free-vector.jpg')",
         backgroundPosition: "center",
     }}>
       <h1 className="text-3xl font-bold text-center flex items-center justify-center">
